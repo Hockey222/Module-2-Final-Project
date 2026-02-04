@@ -21,16 +21,35 @@ margin: 0 auto;
 
 }
 .nav__logo {
+display: flex;
+align-items: center;
+margin: 8px 0px;
+padding-bottom: 4px;
 
 }
 .nav__logo--img {
-
+height:40px;
+width: 40px
 }
 .nav__logo--title {
-  font-size: 26px;  
-  font-weight: 600;
+  font-size: 24px;  
+  font-weight: 900;
+  margin-left: 12px;
+  padding-bottom: 2px;
  
 }
 .nav__links {
+display: flex;
+align-items: center;
+padding-bottom: 2px;
+
+}
+.btn__menu {
   
+  color: #fff;
+  background-color: #6415ff;
+  font-size: 14px;
+  padding: 10px 32px;
+  margin: 2px 0px 0px;
+ 
 }

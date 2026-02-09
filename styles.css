@@ -258,17 +258,15 @@ height: 68px;
 /* 
 
 FEATURES ↓*/
-.features__description--para {
-  
-}
-#features .description__para {
-  text-align: center;
-  max-width: 576px;
-}
 
-.features__description--para {
+
+
+.section__para {
   line-height: 1.625;
   font-size: 18px;
+  text-align: center;
+  max-width: 576px;
+  color: #7c8ba1
 }
 
 
@@ -345,6 +343,13 @@ QUALITY WORK ↓
   justify-content: space-between;
   align-items: center;
 }
+
+.
+.quality__description {
+  max-width: 576px;
+ margin-right: 64px;
+}
+.
 
 /* 
 

@@ -494,9 +494,9 @@ VALUES ↓
   padding: 32px 64px 32px 0;
 }
 .values__List {
-      margin-left: 0px;
+  display: flex;    
+  margin-left: 0px;
     margin-right: 0px;
-    display: flex;
     max-width: none;
     flex-direction: row;
 }

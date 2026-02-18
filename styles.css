@@ -7,6 +7,10 @@
   font-family: "Inter", system-ui;
   color: #243e63;
 }
+button {
+  cursor: pointer;
+  border: none;
+}
 
 body {
   max-width: 100vw;
@@ -814,6 +818,7 @@ TESTIMONIALS ↓
     background-color: #edf2f7;
     height: 20px;
 }
+
 * 
 /* 
 
@@ -862,22 +867,29 @@ display: flex;
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     margin-right: 32px;
     transition: all 300ms ease;
-    }
+}
+
     .start__button:nth-child(2) {
     border: 1px solid rgb(100, 21, 255);
     transition: all 300ms ease;
 }
+ .start__button:hover:nth-child(2) {
+    background-color: rgba(247, 250, 252);
+    color: rgba(100, 21, 255);
+}
+  
+
     .start__button {
     padding: 20px 40px;
     border-radius: 500px;
     font-weight: 700;
     font-size: 16px;
-    color: #f7fafc;
+   background-color: #5011cc
     line-height: 1.5;
     letter-spacing: 0.025;
     margin: 1px;
     z-index: 2;
-}
+    }
 
 /* 
 

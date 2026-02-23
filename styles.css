@@ -1169,6 +1169,12 @@ MOBILE RESPONSIVENESS ↓
     footer {
         padding: 80px 32px;
     }
+     .btn__menu {
+    display: block;
+  }
+   .nav__links {
+    display: none;
+  }
 
 
 @media (max-width: 768px) {
@@ -1191,9 +1197,7 @@ MOBILE RESPONSIVENESS ↓
 display: flex;
 width: 50%
 }
-    #quality .row, #values .row {
-        flex-direction: column-reverse;
-    }
+   
 }
 .quality__description, 
 .steps__description, 
@@ -1203,12 +1207,20 @@ width: 50%
         margin-top: 64px;
         text-align: center;
     }
-        .section__para {
-        font-size: 14px;
-    }
-     .quality__description, .quality__img--wrapper, .steps__description, .steps__img--wrapper, .values__description, .values__img, .testimonials__description, .testimonials__img {
+    
+     .quality__description, 
+     .quality__img--wrapper, 
+     .steps__description, 
+     .steps__img--wrapper, 
+     .values__description, 
+     .values__img, 
+     .testimonials__description, 
+     .testimonials__img {
         width: 100%;
         max-width: 448px;
+    }
+        .section__para {
+        font-size: 14px;
     }
         #pricing .row {
         margin-top: 40px;
@@ -1224,11 +1236,7 @@ width: 50%
         margin-right: 0px;
         align-items: center;
     }
-.quality__description, .quality__img--wrapper, .steps__description, .steps__img--wrapper, .values__description, .values__img, .testimonials__description, .testimonials__img {
-        width: 100%;
-        max-width: 448px;
-    }
-        .footer__columns {
+  .footer__columns {
         justify-content: flex-start;
     }
         .footer__bottom {
@@ -1338,8 +1346,8 @@ align-items: center;
         text-align: center;
         align-items: center;
     }
-        .footer__column {
-        width: calc(100% / 3);
+     
+       
     }
         .footer__copyright {
         font-size: 14px;
@@ -1351,9 +1359,10 @@ align-items: center;
         padding: 0 16px;
         text-align: center;
         align-items: center;
+         width: calc(100% / 3);
 }
 
-}
+
 @media (max-width: 550px) {
   .nav__links {
     display: none;

@@ -75,6 +75,8 @@ a {
   text-decoration: none;
 }
 
+
+
 /* 
 
 NAVBAR ↓
@@ -212,6 +214,10 @@ nav {
 HEADER / ABOUT US ↓
 
 */
+.header__container {
+  display: flex;
+  flex: 1;
+}
 h1 {
   font-size: 48px;
 }

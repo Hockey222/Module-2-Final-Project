@@ -1371,29 +1371,11 @@ width: 50%
     margin-bottom: 80px;
   }
    
-      .header__email--btn {
-        width: 100%;
-        padding: 16px 0;
-        margin: 16px 0;
-        margin-bottom: 0px;
-        line-height: 1.5;
-        
-    }
-        .header__email--input {
-        position: static;
-        padding: 16px 0;
-        padding-left: 32px;
-        line-height: 1.5;
-    }
+ 
         #features .section__title, #pricing .section__title {
         font-size: 36px;
     }
-    .header__email--input,
-     .header__email--btn {
-        display: flex;
-        width: 100%;
-        flex-wrap: wrap;
-    }
+ 
     .header__customers--title {
         font-size: 14px;
         letter-spacing: 0.05em;

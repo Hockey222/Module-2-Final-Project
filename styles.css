@@ -1375,10 +1375,6 @@ align-items: center;
     .section__title {
         font-size: 30px;
     }
-    
-       
-        
-         @media (max-width: 640px) {
         
         .header__email--btn {
            flex-direction: column;
